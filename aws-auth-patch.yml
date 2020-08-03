@@ -10,14 +10,14 @@ data:
       - system:masters
       rolearn: arn:aws:iam::774608100706:role/UdacityFlaskDeployCBKubectlRole
       username: build
-            
+
   mapUsers: |
     []
 kind: ConfigMap
 metadata:
-  creationTimestamp: "2020-08-02T06:45:56Z"
+  creationTimestamp: "2020-08-03T20:55:41Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "8351"
+  resourceVersion: "1174"
   selfLink: /api/v1/namespaces/kube-system/configmaps/aws-auth
-  uid: 8d905312-18cd-4a1e-a201-20a0e578970a
+  uid: 10a65409-7749-4e4c-9852-397da60dff81
